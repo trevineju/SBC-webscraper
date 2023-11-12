@@ -6,7 +6,9 @@
 import scrapy
 
 
-class SbcscraperItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class SBCitem(scrapy.Item):
+    titulo = scrapy.Field()
+    data = scrapy.Field()
+    autoria = scrapy.Field()
+    url = scrapy.Field()
+    evento = scrapy.Field()
